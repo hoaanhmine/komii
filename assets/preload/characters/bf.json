@@ -25,7 +25,7 @@
 		{
 			"offsets": [
 				-20,
-				-51
+				-44
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				-46,
-				27
+				-47,
+				55
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				-48,
-				-7
+				229,
+				-5
 			],
 			"loop": false,
 			"fps": 24,
@@ -57,7 +57,7 @@
 		},
 		{
 			"offsets": [
-				7,
+				-10,
 				19
 			],
 			"loop": false,
@@ -68,8 +68,8 @@
 		},
 		{
 			"offsets": [
-				-15,
-				-19
+				-17,
+				-21
 			],
 			"loop": false,
 			"fps": 24,
@@ -80,7 +80,7 @@
 		{
 			"offsets": [
 				-46,
-				27
+				16
 			],
 			"loop": false,
 			"fps": 24,
@@ -101,8 +101,8 @@
 		},
 		{
 			"offsets": [
-				-3,
-				5
+				-13,
+				-4
 			],
 			"loop": false,
 			"fps": 24,
@@ -112,8 +112,8 @@
 		},
 		{
 			"offsets": [
-				14,
-				18
+				29,
+				25
 			],
 			"loop": false,
 			"fps": 24,
@@ -123,19 +123,41 @@
 		},
 		{
 			"offsets": [
-				-4,
-				0
+				27,
+				11
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "scared",
+			"anim": "firstDeath",
 			"indices": [],
-			"name": "BF idle shaking"
+			"name": "BF dies"
 		},
 		{
 			"offsets": [
-				-10,
-				-16
+				27,
+				5
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "BF Dead Loop"
+		},
+		{
+			"offsets": [
+				27,
+				69
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "BF Dead confirm"
+		},
+		{
+			"offsets": [
+				74,
+				-7
 			],
 			"loop": false,
 			"fps": 24,
@@ -145,8 +167,8 @@
 		},
 		{
 			"offsets": [
-				294,
-				267
+				969,
+				-6
 			],
 			"loop": false,
 			"fps": 24,
@@ -167,17 +189,33 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"healthicon_scale": 1,
+	"gameover_properties": [
+		"bf-dead",
+		"fnf_loss_sfx",
+		"gameOver",
+		"gameOverEnd"
+	],
+	"image": "characters/BF/BF",
 	"position": [
 		0,
 		350
 	],
-	"healthicon": "bf",
+	"healthicon_offsets": [
+		0,
+		-10
+	],
+	"healthbar_colors2": [
+		0,
+		255,
+		229
+	],
+	"healthicon": "classic-bf",
 	"flip_x": true,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		0,
+		255,
+		229
 	],
 	"camera_position": [
 		0,
